@@ -2,84 +2,137 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d067666-6619-4005-8efb-d91ceca2467d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ProxyPractise/src/main/java/com/gupao/dbroute/DbRouteProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProxyPractise/src/main/java/com/gupao/dbroute/IOrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProxyPractise/src/main/java/com/gupao/dbroute/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProxyPractise/src/main/java/com/gupao/dbroute/OrderDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProxyPractise/src/main/java/com/gupao/dbroute/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProxyPractise/src/main/java/com/gupao/dbroute/db/DynamicDataSourceEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProxyPractise/src/main/java/com/gupao/dbroute/proxy/OrderServiceDynamicProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProxyPractise/src/main/java/com/gupao/dbroute/proxy/OrderServiceStaticProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProxyPractise/src/main/java/com/gupao/dynamicproxy/cglibproxy/CglibMeipo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProxyPractise/src/main/java/com/gupao/dynamicproxy/cglibproxy/CglibTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProxyPractise/src/main/java/com/gupao/dynamicproxy/cglibproxy/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProxyPractise/src/main/java/com/gupao/dynamicproxy/gpproxy/client/GpMeipo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProxyPractise/src/main/java/com/gupao/dynamicproxy/gpproxy/client/IPerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProxyPractise/src/main/java/com/gupao/dynamicproxy/gpproxy/client/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProxyPractise/src/main/java/com/gupao/dynamicproxy/gpproxy/client/Zhangsan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProxyPractise/src/main/java/com/gupao/dynamicproxy/gpproxy/proxy/GPClassLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProxyPractise/src/main/java/com/gupao/dynamicproxy/gpproxy/proxy/GPInvocationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProxyPractise/src/main/java/com/gupao/dynamicproxy/gpproxy/proxy/GPProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProxyPractise/src/main/java/com/gupao/dynamicproxy/jdkproxy/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProxyPractise/src/main/java/com/gupao/dynamicproxy/jdkproxy/IPerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProxyPractise/src/main/java/com/gupao/dynamicproxy/jdkproxy/JdkMeipo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProxyPractise/src/main/java/com/gupao/dynamicproxy/jdkproxy/ZhangSan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProxyPractise/src/main/java/com/gupao/dynamicproxy/jdkproxy/ZhaoLiu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProxyPractise/src/main/java/com/gupao/staticproxy/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProxyPractise/src/main/java/com/gupao/staticproxy/IPerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProxyPractise/src/main/java/com/gupao/staticproxy/ZhangLaoSan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ProxyPractise/src/main/java/com/gupao/staticproxy/ZhangSan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../parttern-decorator-practise/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../parttern-decorator-practise/src/main/java/com/gupao/logger/JsonLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../parttern-decorator-practise/src/main/java/com/gupao/logger/JsonLoggerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../parttern-decorator-practise/src/main/java/com/gupao/logger/LoggerDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../parttern-decorator-practise/src/main/java/com/gupao/logger/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pattern-adapter-practise/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pattern-adapter-practise/src/main/java/com/gupao/passport/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pattern-adapter-practise/src/main/java/com/gupao/passport/PassportService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pattern-adapter-practise/src/main/java/com/gupao/passport/ResultMsg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pattern-adapter-practise/src/main/java/com/gupao/passport/adapter/IPassportForThirdService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pattern-adapter-practise/src/main/java/com/gupao/passport/adapter/PassportForThirdAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pattern-adapter-practise/src/main/java/com/gupao/passport/adapter/adapters/AbstractPassportForThird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pattern-adapter-practise/src/main/java/com/gupao/passport/adapter/adapters/ILoginForThird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pattern-adapter-practise/src/main/java/com/gupao/passport/adapter/adapters/LoginForQQAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pattern-adapter-practise/src/main/java/com/gupao/passport/adapter/adapters/LoginForTeleAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pattern-adapter-practise/src/main/java/com/gupao/passport/adapter/adapters/LoginForTokenAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pattern-adapter-practise/src/main/java/com/gupao/passport/adapter/adapters/LoginForWeChatAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pattern-adapter-practise/src/main/java/com/gupao/passport/adapter/adapters/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pattern-flyweight-practise/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pattern-flyweight-practise/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pattern-flyweight-practise/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pattern-flyweight-practise/src/main/java/com/gupao/pool/ConnectionPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pattern-flyweight-practise/src/main/java/com/gupao/pool/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/template/jdbc/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/template/jdbc/dao/MemberDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/template/jdbc/entity/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/template/jdbc/framework/JdbcTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/template/jdbc/framework/RowMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/YSgitHub.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practise/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practise/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practise/Practise.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practise/fos.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practise/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practise/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practise/src/main/java/IO/FOSDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practise/src/main/java/simpleFactoryPattern/AddOperation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practise/src/main/java/simpleFactoryPattern/CutOperation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practise/src/main/java/simpleFactoryPattern/DivideOperation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practise/src/main/java/simpleFactoryPattern/MainProgram.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practise/src/main/java/simpleFactoryPattern/MultiOperation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practise/src/main/java/simpleFactoryPattern/Operation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practise/src/main/java/simpleFactoryPattern/OperationFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Practise/target/classes/IO/FOSDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springbootconfig/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../springbootconfig/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/chain/auth/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/chain/auth/buildChain/AuthHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/chain/auth/buildChain/CheckUsernamePasswordHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/chain/auth/buildChain/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/chain/auth/buildChain/LoginHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/chain/auth/buildChain/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/chain/auth/buildChain/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/chain/auth/old/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/chain/auth/optimize/AuthHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/chain/auth/optimize/CheckUsernamePasswordHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/chain/auth/optimize/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/chain/auth/optimize/LoginHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/chain/auth/optimize/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/chain/auth/optimize/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/chain/general/ConcreteHandlerA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/chain/general/ConcreteHandlerB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/chain/general/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/chain/general/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/abstractfactory/INote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/abstractfactory/IVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/abstractfactory/JavaNote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/abstractfactory/JavaVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/abstractfactory/PythonNote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/abstractfactory/PythonVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/abstractfactory/factory/CourseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/abstractfactory/factory/JavaCourseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/abstractfactory/factory/PythonCourseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/abstractfactory/factory/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/factorymethod/ICourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/factorymethod/ICourseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/factorymethod/JavaCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/factorymethod/JavaCourseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/factorymethod/PythonCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/factorymethod/PythonCourseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/factorymethod/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/simpleFactory/CourseFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/simpleFactory/ICourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/simpleFactory/JavaCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/simpleFactory/PythonCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/simpleFactory/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/flyweight/general/ConcreteFlyweight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/flyweight/general/FlyweightFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/flyweight/general/IFlyweight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/flyweight/general/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/flyweight/jdk/integer/IntegerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/flyweight/jdk/string/StringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/flyweight/pool/ConnectionPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/flyweight/pool/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/memento/editor/ArticleMemento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/memento/editor/DraftsBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/memento/editor/Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/memento/editor/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/memento/general/Caretaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/memento/general/Memento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/memento/general/Originator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/memento/general/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/observer/grep/Grep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/observer/grep/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/observer/grep/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/observer/grep/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/observer/guava/PoJo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/observer/guava/PoJoEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/observer/guava/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/observer/guava/Vo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/observer/guava/VoEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/singleton/hungry/HungrySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/singleton/hungry/HungryStaticSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/singleton/lazy/LazyDoubleCheckSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/singleton/lazy/LazySimpleSingletion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/singleton/lazy/LazyStaticInnerClassSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/singleton/register/ContainerSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/singleton/register/EnumSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/singleton/register/EnumSingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/singleton/seriable/SeriableSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/singleton/threadlocal/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/singleton/threadlocal/ThreadLocalSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/state/general/apply/ConcreteStateA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/state/general/apply/ConcreteStateB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/state/general/apply/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/state/general/apply/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/state/general/apply/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/state/general/simple/ConcreteStateA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/state/general/simple/ConcreteStateB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/state/general/simple/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/state/general/simple/IState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/state/general/simple/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/state/grep/AppContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/state/grep/LoginState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/state/grep/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/state/grep/UnLoginState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/state/grep/UserState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/state/order/IOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/state/order/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/state/order/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/state/order/OrderStateListenerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/state/order/OrderStateMachineConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/state/order/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/state/order/OrderStatusChangeEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/state/order/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/strategy/bankMessage/EmailSend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/strategy/bankMessage/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/strategy/bankMessage/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/strategy/bankMessage/PhoneSend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/strategy/bankMessage/SendStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/strategy/bankMessage/SendType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/strategy/bankMessage/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/strategy/bankMessage/WeChatSend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/strategy/pay/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/strategy/pay/ResultMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/strategy/pay/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/strategy/pay/payport/AliPay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/strategy/pay/payport/PayStategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/strategy/pay/payport/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/strategy/pay/payport/UnionPay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/strategy/pay/payport/WeChatPay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/strategy/promotion/CashbackStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/strategy/promotion/CouponStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/strategy/promotion/EmptyStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/strategy/promotion/GroupbuyStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/strategy/promotion/IPromotionStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/strategy/promotion/PromotionStrategyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ys/pattern/strategy/promotion/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-framework-5.0.2.RELEASE/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -89,64 +142,70 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="fiction@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="fiction@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="fiction@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="fiction: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/template/jdbc/framework/JdbcTemplate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="619">
-              <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/template/jdbc/Test.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/singleton/threadlocal/ThreadLocalSingleton.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
-              <caret line="14" column="64" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
+              <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#203#420#0" expanded="true" />
+                <element signature="e#419#420#0" expanded="true" />
+                <element signature="e#513#514#0" expanded="true" />
+                <element signature="e#561#562#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/template/jdbc/entity/Member.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/singleton/threadlocal/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding>
-                <element signature="e#325#326#0" expanded="true" />
-                <element signature="e#356#357#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="390">
+              <caret line="27" column="62" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/template/jdbc/dao/MemberDao.java">
+        <entry file="jar://C:/Java/jdk1.8.0_201/src.zip!/java/lang/ThreadLocal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+            <state relative-caret-position="208">
+              <caret line="53" column="59" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="59" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/template/jdbc/framework/RowMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#4309#4310#0" expanded="true" />
+                <element signature="e#4336#4337#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -158,6 +217,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Kotlin File" />
         <option value="Class" />
       </list>
     </option>
@@ -165,6 +226,13 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>executeQuery</find>
+      <find>getImgs</find>
+      <find>LoggerFactory.getLogger</find>
+      <find>Bootstrap</find>
+      <find>run(</find>
+      <find>SeriableSingleton</find>
+      <find>initialValue</find>
+      <find>getName</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -173,13 +241,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/template/jdbc/RowMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/template/jdbc/JdbcTemplate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/template/jdbc/Member.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/template/jdbc/dao/MemberDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/template/jdbc/framework/RowMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/template/jdbc/framework/JdbcTemplate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/template/jdbc/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/state/order/Order.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/state/order/IOrderService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/state/springstatemachine/demo/simple/Events.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/state/springstatemachine/demo/persist/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/state/springstatemachine/demo/groupadd/GroupService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/state/springstatemachine/demo/groupadd/StateMachineConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/state/order/OrderStatusChangeEvent.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.propertities" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/simpleFactory/ICourse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/simpleFactory/JavaCourse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/simpleFactory/PythonCourse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/simpleFactory/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/simpleFactory/CourseFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/factorymethod/PythonCourse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/factorymethod/ICourseFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/factorymethod/JavaCourseFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/factorymethod/PythonCourseFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/factorymethod/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/abstractfactory/PythonCourse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/abstractfactory/IVideo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/abstractfactory/CourseFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/abstractfactory/JavaCourseFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/abstractfactory/PythonCourseFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/abstractfactory/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/abstractfactory/PythonNote.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/abstractfactory/JavaNote.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/abstractfactory/JavaVideo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/abstractfactory/PythonVideo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/abstractfactory/factory/JavaCourseFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/abstractfactory/factory/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/jdbc/DBUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/jdbc/Demo01.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/jdbc/Demo02.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/jdbc/Demo05.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/observer/Question.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/observer/Teacher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/observer/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/observer/Grep.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/observer/grep/Grep.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/observer/guava/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/observer/guava/VoEvent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/observer/guava/PoJoEvent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/jdbc/Demo10.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/jdbc/Demo04.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/singleton/threadlocal/ThreadLocalSingleton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/singleton/threadlocal/ExectorThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ys/pattern/singleton/threadlocal/Test.java" />
       </list>
     </option>
   </component>
@@ -191,20 +303,34 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="pattern-practise" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="width" value="1935" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <showMembers ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="false" />
+      <abbreviatePackageNames ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -230,6 +356,111 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="pattern-practise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pattern-practise" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pattern-practise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pattern-practise" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ys" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pattern-practise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pattern-practise" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ys" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pattern-practise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pattern-practise" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ys" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pattern-practise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pattern-practise" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ys" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
+              <item name="hungry" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pattern-practise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pattern-practise" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ys" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
+              <item name="lazy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pattern-practise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pattern-practise" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ys" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
+              <item name="register" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pattern-practise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pattern-practise" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ys" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
+              <item name="seriable" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pattern-practise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pattern-practise" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ys" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
+              <item name="threadlocal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pattern-practise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pattern-practise" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -237,16 +468,44 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584162029950" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585453286973" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="D:/咕泡学院/VIP专享--2020期录播视频及资料/2020期课程资料/01.架构师内功心法/02.经典框架中常见的设计模式/1.设计模式总览及工厂模式详解/源码笔记/【课堂源码】设计模式总览及工厂模式详解/gupaoedu-vip-pattern-factory-pool" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.ys.pattern.singleton.threadlocal" />
+      <recent name="com.ys.pattern.state.order" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ys.pattern.factory.factorymethod" />
+      <recent name="com.ys.pattern.factory.simpleFactory" />
+      <recent name="com.ys.pattern.strategy.bankMessage" />
+      <recent name="com.ys.pattern.chain.auth.optimize" />
+      <recent name="com.ys.pattern.chain.auth.old" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\myLocalGitRepository\YSgitHub\pattern-practise\src\main\java\com\ys\pattern\singleton" />
+      <recent name="D:\myLocalGitRepository\YSgitHub\pattern-practise\src\main\java\com\ys\pattern\factory\jdbc" />
+      <recent name="D:\myLocalGitRepository\YSgitHub\pattern-practise\src\main\resources" />
+      <recent name="D:\myLocalGitRepository\YSgitHub\pattern-practise\src\main\java\com\ys\pattern\factory\abstractfactory" />
+      <recent name="D:\myLocalGitRepository\YSgitHub\pattern-practise\src\main\java\com\ys\pattern\factory\factorymethod" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -259,6 +518,97 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="Application.Test (3)">
+    <configuration name="Demo02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ys.pattern.factory.jdbc.Demo02" />
+      <module name="pattern-practise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ys.pattern.factory.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.ys.pattern.observer.grep.Test" />
+      <module name="pattern-practise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ys.pattern.observer.grep.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ys.pattern.observer.guava.Test" />
+      <module name="pattern-practise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ys.pattern.observer.guava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ys.pattern.singleton.threadlocal.Test" />
+      <module name="pattern-practise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ys.pattern.singleton.threadlocal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ys.pattern.chain.auth.buildChain.Test" />
+      <module name="pattern-practise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ys.pattern.chain.auth.buildChain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="pattern-practise" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ys.pattern.state.order.Test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Test (1)" />
+      <item itemvalue="Application.Test (4)" />
+      <item itemvalue="Application.Test (2)" />
+      <item itemvalue="Application.Demo02" />
+      <item itemvalue="Spring Boot.Test" />
+      <item itemvalue="Application.Test (3)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test (3)" />
+        <item itemvalue="Application.Demo02" />
+        <item itemvalue="Application.Test (2)" />
+        <item itemvalue="Application.Test (4)" />
+        <item itemvalue="Application.Test (1)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -273,131 +623,490 @@
       <workItem from="1584082733638" duration="1559000" />
       <workItem from="1584157285995" duration="4264000" />
       <workItem from="1584162043363" duration="3000" />
+      <workItem from="1584162609495" duration="3093000" />
+      <workItem from="1584252492008" duration="17395000" />
+      <workItem from="1584324204896" duration="59000" />
+      <workItem from="1584407893028" duration="2779000" />
+      <workItem from="1584447121615" duration="3244000" />
+      <workItem from="1584591970216" duration="3065000" />
+      <workItem from="1584678467282" duration="3365000" />
+      <workItem from="1584708012175" duration="13947000" />
+      <workItem from="1584927237968" duration="24000" />
+      <workItem from="1584966801125" duration="4851000" />
+      <workItem from="1585019229719" duration="3635000" />
+      <workItem from="1585039647263" duration="952000" />
+      <workItem from="1585098726035" duration="210000" />
+      <workItem from="1585451883018" duration="1395000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5826000" />
+    <option name="totallyTimeSpent" value="63840000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.2546917" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.30428955" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Structure" order="6" sideWeight="0.50141644" weight="0.25134048" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.35410765" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.28328612" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.3286119" />
+      <window_info anchor="bottom" id="Spring" order="14" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.20844504" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Database" order="8" weight="0.21447721" />
+      <window_info anchor="right" id="JSF" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858356" weight="0.30495977" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info active="true" id="Structure" order="6" sideWeight="0.50141644" visible="true" weight="0.25134048" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.35410765" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.21246459" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.3286119" />
+      <window_info anchor="bottom" id="Spring" order="14" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.20844504" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.21447721" />
+      <window_info anchor="right" id="JSF" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ys/pattern/observer/grep/Test.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Java/jdk1.8.0_201/src.zip!/java/sql/PreparedStatement.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/abstractfactory/JavaCourse.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/abstractfactory/ICourse.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/abstractfactory/PythonCourse.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/abstractfactory/IVideo.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/abstractfactory/PythonNote.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="721">
-          <caret line="76" column="26" selection-start-line="76" selection-start-column="14" selection-end-line="76" selection-end-column="26" />
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/abstractfactory/JavaNote.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/abstractfactory/JavaVideo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/abstractfactory/PythonVideo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="47" selection-start-column="47" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/abstractfactory/factory/JavaCourseFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/abstractfactory/factory/PythonCourseFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/abstractfactory/factory/CourseFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/abstractfactory/factory/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.ys.pattern.factory.abstractfactory.factory.CourseFactory">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.ys.pattern.factory.abstractfactory.factory.CourseFactory</OriginalElement>
+          <nodes>
+            <node x="" y="">com.ys.pattern.factory.abstractfactory.JavaVideo</node>
+            <node x="" y="">com.ys.pattern.factory.abstractfactory.JavaNote</node>
+            <node x="" y="">com.ys.pattern.factory.abstractfactory.factory.JavaCourseFactory</node>
+            <node x="" y="">com.ys.pattern.factory.abstractfactory.factory.Test</node>
+            <node x="" y="">com.ys.pattern.factory.abstractfactory.INote</node>
+            <node x="" y="">com.ys.pattern.factory.abstractfactory.IVideo</node>
+            <node x="" y="">com.ys.pattern.factory.abstractfactory.factory.PythonCourseFactory</node>
+            <node x="" y="">com.ys.pattern.factory.abstractfactory.PythonNote</node>
+            <node x="" y="">com.ys.pattern.factory.abstractfactory.PythonVideo</node>
+            <node x="" y="">com.ys.pattern.factory.abstractfactory.factory.CourseFactory</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-99.0" y="134.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Java/jdk1.8.0_201/src.zip!/javax/sql/DataSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
+        <state relative-caret-position="969">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Java/jdk1.8.0_201/jre/lib/rt.jar!/javax/activation/DataHandler.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.14/mysql-connector-java-5.1.14.jar!/com/mysql/jdbc/jdbc2/optional/MysqlDataSource.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="23" column="50" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="50" />
+        <state relative-caret-position="247">
+          <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/template/jdbc/framework/JdbcTemplate.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/chain/auth/buildChain/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="209">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/template/jdbc/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/observer/grep/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="64" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="151">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/template/jdbc/entity/Member.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1767">
+          <caret line="93" column="21" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/observer/grep/Question.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/template/jdbc/dao/MemberDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/template/jdbc/framework/RowMapper.java">
+    <entry file="jar://C:/Java/jdk1.8.0_201/src.zip!/java/util/Observer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/observer/grep/Teacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/observer/grep/Grep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_201/src.zip!/java/util/Observable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="694">
+          <caret line="209" column="46" lean-forward="true" selection-start-line="209" selection-start-column="46" selection-end-line="209" selection-end-column="46" />
+          <folding>
+            <element signature="e#2952#2953#0" expanded="true" />
+            <element signature="e#2988#2989#0" expanded="true" />
+            <element signature="e#6978#6979#0" expanded="true" />
+            <element signature="e#7008#7009#0" expanded="true" />
+            <element signature="e#7243#7244#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/observer/guava/Vo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/observer/guava/VoEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <folding>
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/eventbus/EventBus.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="110" column="46" lean-forward="true" selection-start-line="110" selection-start-column="46" selection-end-line="110" selection-end-column="46" />
+          <folding>
+            <element signature="e#1862#1863#0" expanded="true" />
+            <element signature="e#1893#1894#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/observer/guava/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/observer/guava/PoJoEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/jdbc/Demo10.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/jdbc/DBUtils.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/jdbc/Demo01.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/jdbc/Demo02.java" />
+    <entry file="jar://C:/Java/jdk1.8.0_201/src.zip!/java/sql/PreparedStatement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="128" column="9" selection-start-line="128" selection-start-column="9" selection-end-line="128" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/jdbc/Demo03.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/jdbc/Demo04.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/factory/jdbc/Demo05.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/observer/guava/PoJo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/singleton/register/ContainerSingleton.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/singleton/lazy/LazyDoubleCheckSingleton.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/singleton/hungry/HungryStaticSingleton.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/singleton/register/EnumSingleton.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/singleton/lazy/LazySimpleSingletion.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/singleton/hungry/HungrySingleton.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/singleton/register/EnumSingletonTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/singleton/seriable/SeriableSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="30" />
+          <folding>
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/singleton/lazy/LazyStaticInnerClassSingleton.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_201/src.zip!/java/lang/ThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="53" column="59" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="59" />
+          <folding>
+            <element signature="e#4309#4310#0" expanded="true" />
+            <element signature="e#4336#4337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/singleton/threadlocal/ThreadLocalSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <element signature="e#203#420#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/singleton/threadlocal/ExectorThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ys/pattern/singleton/threadlocal/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="27" column="62" selection-start-line="27" selection-start-column="62" selection-end-line="27" selection-end-column="62" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -421,8 +1130,22 @@
           </splitter-proportions>
         </settings>
       </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>pattern-practise</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: commons-lang:commons-lang:2.6</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
