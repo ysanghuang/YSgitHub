@@ -2,18 +2,14 @@ package com.ys.client4qq.controller;
 
 import com.ys.client4qq.demo.FlowOrderDemo;
 import com.ys.client4qq.job.QueryQQThreadJob;
-import com.ys.client4qq.job.QueryThread;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.scheduling.support.ScheduledMethodRunnable;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
-import java.util.Map;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

@@ -121,7 +121,7 @@ public class FlowOrderDemo {
                 e.printStackTrace();
             }
         }
-
+        logger.debug("线程"+Thread.currentThread().getName()+"结束");
         return result;
     }
 }
