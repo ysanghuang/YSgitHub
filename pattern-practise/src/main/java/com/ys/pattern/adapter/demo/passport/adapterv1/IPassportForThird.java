@@ -1,6 +1,6 @@
-package com.gupaoedu.vip.pattern.adapter.demo.passport.adapterv1;
+package com.ys.pattern.adapter.demo.passport.adapterv1;
 
-import com.gupaoedu.vip.pattern.adapter.demo.passport.ResultMsg;
+import com.ys.pattern.adapter.demo.passport.ResultMsg;
 
 /**
  * Created by Tom.
@@ -13,6 +13,6 @@ public interface IPassportForThird {
 
     ResultMsg loginForToken(String token);
 
-    ResultMsg loginForTelphone(String phone,String code);
+    ResultMsg loginForTelphone(String phone, String code);
 
 }

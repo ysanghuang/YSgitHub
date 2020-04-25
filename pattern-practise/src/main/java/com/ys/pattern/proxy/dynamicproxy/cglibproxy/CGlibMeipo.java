@@ -1,4 +1,4 @@
-package com.gupaoedu.vip.pattern.proxy.dynamicproxy.cglibproxy;
+package com.ys.pattern.proxy.dynamicproxy.cglibproxy;
 
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;

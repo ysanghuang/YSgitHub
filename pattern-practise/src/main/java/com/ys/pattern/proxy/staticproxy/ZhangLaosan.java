@@ -1,4 +1,4 @@
-package com.gupaoedu.vip.pattern.proxy.staticproxy;
+package com.ys.pattern.proxy.staticproxy;
 
 /**
  * Created by Tom.

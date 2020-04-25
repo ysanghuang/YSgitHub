@@ -1,4 +1,4 @@
-package com.gupaoedu.vip.pattern.facade.points;
+package com.ys.pattern.facade.points;
 
 /**
  * Created by Tom.

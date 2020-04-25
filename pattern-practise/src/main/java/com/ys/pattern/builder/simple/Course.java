@@ -1,4 +1,4 @@
-package com.gupaoedu.vip.pattern.builder.simple;
+package com.ys.pattern.builder.simple;
 
 import lombok.Data;
 

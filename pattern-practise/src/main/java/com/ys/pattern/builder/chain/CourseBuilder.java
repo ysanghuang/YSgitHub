@@ -1,4 +1,4 @@
-package com.gupaoedu.vip.pattern.builder.chain;
+package com.ys.pattern.builder.chain;
 
 import lombok.Data;
 

@@ -1,10 +1,8 @@
-package com.gupaoedu.vip.pattern.builder.chain;
+package com.ys.pattern.builder.chain;
 
 import org.apache.ibatis.mapping.CacheBuilder;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.springframework.beans.factory.support.BeanDefinitionBuilder;
-
-import java.util.Set;
 
 /**
  * Created by Tom

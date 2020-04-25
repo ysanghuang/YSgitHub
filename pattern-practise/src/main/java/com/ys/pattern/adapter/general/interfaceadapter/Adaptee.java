@@ -1,4 +1,4 @@
-package com.gupaoedu.vip.pattern.adapter.general.interfaceadapter;
+package com.ys.pattern.adapter.general.interfaceadapter;
 
 /**
  * Created by Tom.

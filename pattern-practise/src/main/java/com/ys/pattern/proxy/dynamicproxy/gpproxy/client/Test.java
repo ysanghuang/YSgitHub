@@ -1,4 +1,4 @@
-package com.gupaoedu.vip.pattern.proxy.dynamicproxy.gpproxy.client;
+package com.ys.pattern.proxy.dynamicproxy.gpproxy.client;
 
 
 /**

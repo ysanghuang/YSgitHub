@@ -1,4 +1,4 @@
-package com.gupaoedu.vip.pattern.facade.general;
+package com.ys.pattern.facade.general;
 
 // 外观角色 Facade
 public class Facade {

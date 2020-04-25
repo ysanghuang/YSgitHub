@@ -1,9 +1,9 @@
-package com.gupaoedu.vip.pattern.proxy.dbroute.proxy;
+package com.ys.pattern.proxy.dbroute.proxy;
 
-import com.gupaoedu.vip.pattern.proxy.dbroute.db.DynamicDataSourceEntity;
-import com.gupaoedu.vip.pattern.proxy.dynamicproxy.gpproxy.proxy.GPClassLoader;
-import com.gupaoedu.vip.pattern.proxy.dynamicproxy.gpproxy.proxy.GPInvocationHandler;
-import com.gupaoedu.vip.pattern.proxy.dynamicproxy.gpproxy.proxy.GPProxy;
+import com.ys.pattern.proxy.dbroute.db.DynamicDataSourceEntity;
+import com.ys.pattern.proxy.dynamicproxy.gpproxy.proxy.GPClassLoader;
+import com.ys.pattern.proxy.dynamicproxy.gpproxy.proxy.GPInvocationHandler;
+import com.ys.pattern.proxy.dynamicproxy.gpproxy.proxy.GPProxy;
 
 import java.lang.reflect.Method;
 import java.text.SimpleDateFormat;

@@ -1,9 +1,6 @@
-package com.gupaoedu.vip.pattern.decorator.logger;
+package com.ys.pattern.decorator.logger;
 
 import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
-import java.io.*;
 
 /**
  * Created by Tom.

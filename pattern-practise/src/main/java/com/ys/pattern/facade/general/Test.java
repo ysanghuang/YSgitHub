@@ -1,4 +1,4 @@
-package com.gupaoedu.vip.pattern.facade.general;
+package com.ys.pattern.facade.general;
 
 class Test {
     // 客户

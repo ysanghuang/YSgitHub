@@ -1,6 +1,4 @@
-package com.gupaoedu.vip.pattern.facade.points;
-
-import com.gupaoedu.vip.pattern.facade.general.Facade;
+package com.ys.pattern.facade.points;
 
 /**
  * Created by Tom.

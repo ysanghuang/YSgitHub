@@ -1,4 +1,4 @@
-package com.gupaoedu.vip.pattern.adapter.demo.power.objectadapter;
+package com.ys.pattern.adapter.demo.power.objectadapter;
 
 
 /**

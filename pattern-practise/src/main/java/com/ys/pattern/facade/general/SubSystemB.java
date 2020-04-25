@@ -1,4 +1,4 @@
-package com.gupaoedu.vip.pattern.facade.general;
+package com.ys.pattern.facade.general;
 
 // 子系统
 public class SubSystemB {

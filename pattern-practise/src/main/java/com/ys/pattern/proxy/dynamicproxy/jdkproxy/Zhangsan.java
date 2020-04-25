@@ -1,4 +1,4 @@
-package com.gupaoedu.vip.pattern.proxy.dynamicproxy.jdkproxy;
+package com.ys.pattern.proxy.dynamicproxy.jdkproxy;
 
 
 /**

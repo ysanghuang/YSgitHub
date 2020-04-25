@@ -1,4 +1,4 @@
-package com.gupaoedu.vip.pattern.adapter.general.objectadapter;
+package com.ys.pattern.adapter.general.objectadapter;
 
 /**
  * Created by Tom.

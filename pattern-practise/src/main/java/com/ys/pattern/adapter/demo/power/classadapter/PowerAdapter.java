@@ -1,4 +1,4 @@
-package com.gupaoedu.vip.pattern.adapter.demo.power.classadapter;
+package com.ys.pattern.adapter.demo.power.classadapter;
 
 /**
  * Created by Tom.

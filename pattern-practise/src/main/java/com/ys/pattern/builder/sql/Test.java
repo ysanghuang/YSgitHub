@@ -1,6 +1,5 @@
-package com.gupaoedu.vip.pattern.builder.sql;
+package com.ys.pattern.builder.sql;
 
-import javax.management.Query;
 import java.util.Arrays;
 
 /**

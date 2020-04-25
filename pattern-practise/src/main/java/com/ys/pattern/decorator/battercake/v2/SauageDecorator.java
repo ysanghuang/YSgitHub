@@ -1,4 +1,4 @@
-package com.gupaoedu.vip.pattern.decorator.battercake.v2;
+package com.ys.pattern.decorator.battercake.v2;
 
 /**
  * Created by Tom.

@@ -1,4 +1,4 @@
-package com.gupaoedu.vip.pattern.prototype.general;
+package com.ys.pattern.prototype.general;
 
 /**
  * Created by Tom.

@@ -1,4 +1,4 @@
-package com.gupaoedu.vip.pattern.builder.sql;
+package com.ys.pattern.builder.sql;
 
 import java.io.Serializable;
 import java.util.ArrayList;

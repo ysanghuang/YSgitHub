@@ -1,4 +1,8 @@
-package com.gupaoedu.vip.pattern.builder.sql;
+package com.ys.pattern.builder.sql;
+
+import com.ys.pattern.builder.sql.QueryRule.Rule;
+import org.apache.commons.lang.ArrayUtils;
+import org.apache.commons.lang.StringUtils;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -6,11 +10,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
-import org.apache.commons.lang.ArrayUtils;
-
-import com.gupaoedu.vip.pattern.builder.sql.QueryRule.Rule;
-import org.apache.commons.lang.StringUtils;
 
 
 /**

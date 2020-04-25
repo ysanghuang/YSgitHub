@@ -1,4 +1,4 @@
-package com.gupaoedu.vip.pattern.prototype.deep;
+package com.ys.pattern.prototype.deep;
 
 
 import lombok.Data;

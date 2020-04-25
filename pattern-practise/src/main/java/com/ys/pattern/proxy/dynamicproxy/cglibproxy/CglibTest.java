@@ -1,6 +1,4 @@
-package com.gupaoedu.vip.pattern.proxy.dynamicproxy.cglibproxy;
-
-import net.sf.cglib.core.DebuggingClassWriter;
+package com.ys.pattern.proxy.dynamicproxy.cglibproxy;
 
 /**
  * Created by Tom on 2019/3/11.

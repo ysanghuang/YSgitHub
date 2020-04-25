@@ -1,4 +1,4 @@
-package com.gupaoedu.vip.pattern.composite.demo.transparent;
+package com.ys.pattern.composite.demo.transparent;
 
 /**
  * Created by Tom.

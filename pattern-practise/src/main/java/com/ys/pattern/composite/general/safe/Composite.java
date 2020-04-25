@@ -1,6 +1,4 @@
-package com.ys.pattern.composite.general;
-
-import org.junit.validator.PublicClassValidator;
+package com.ys.pattern.composite.general.safe;
 
 import java.util.ArrayList;
 import java.util.List;

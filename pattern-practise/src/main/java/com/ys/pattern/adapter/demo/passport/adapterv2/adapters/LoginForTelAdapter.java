@@ -1,6 +1,6 @@
-package com.gupaoedu.vip.pattern.adapter.demo.passport.adapterv2.adapters;
+package com.ys.pattern.adapter.demo.passport.adapterv2.adapters;
 
-import com.gupaoedu.vip.pattern.adapter.demo.passport.ResultMsg;
+import com.ys.pattern.adapter.demo.passport.ResultMsg;
 
 /**
  * Created by Tom.

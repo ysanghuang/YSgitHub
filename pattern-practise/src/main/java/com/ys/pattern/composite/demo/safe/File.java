@@ -1,4 +1,4 @@
-package com.gupaoedu.vip.pattern.composite.demo.safe;
+package com.ys.pattern.composite.demo.safe;
 
 public class File extends Directory {
 

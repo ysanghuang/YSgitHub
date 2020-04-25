@@ -1,4 +1,4 @@
-package com.gupaoedu.vip.pattern.proxy.dbroute.db;
+package com.ys.pattern.proxy.dbroute.db;
 
 /**
  * Created by Tom on 2019/3/10.

@@ -1,4 +1,4 @@
-package com.gupaoedu.vip.pattern.prototype.singleton;
+package com.ys.pattern.prototype.singleton;
 
 
 import lombok.Data;

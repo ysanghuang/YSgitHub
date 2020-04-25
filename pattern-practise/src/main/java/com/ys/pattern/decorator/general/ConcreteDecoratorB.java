@@ -1,4 +1,4 @@
-package com.gupaoedu.vip.pattern.decorator.general;
+package com.ys.pattern.decorator.general;
 
 public class ConcreteDecoratorB extends Decorator {
     public ConcreteDecoratorB(Component component) {

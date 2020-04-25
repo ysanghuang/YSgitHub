@@ -1,4 +1,4 @@
-package com.gupaoedu.vip.pattern.proxy.dynamicproxy.gpproxy.proxy;
+package com.ys.pattern.proxy.dynamicproxy.gpproxy.proxy;
 
 import java.lang.reflect.Method;
 

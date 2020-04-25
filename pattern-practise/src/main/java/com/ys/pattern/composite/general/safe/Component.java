@@ -1,4 +1,4 @@
-package com.ys.pattern.composite.general;
+package com.ys.pattern.composite.general.safe;
 
 /**
  * @Author: yangshuang

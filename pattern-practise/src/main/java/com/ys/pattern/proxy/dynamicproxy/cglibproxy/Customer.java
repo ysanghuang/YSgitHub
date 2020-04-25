@@ -1,4 +1,4 @@
-package com.gupaoedu.vip.pattern.proxy.dynamicproxy.cglibproxy;
+package com.ys.pattern.proxy.dynamicproxy.cglibproxy;
 
 /**
  * Created by Tom on 2019/3/11.

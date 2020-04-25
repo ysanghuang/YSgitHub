@@ -1,10 +1,9 @@
-package com.gupaoedu.vip.pattern.proxy.dynamicproxy.gpproxy.client;
+package com.ys.pattern.proxy.dynamicproxy.gpproxy.client;
 
 
-import com.gupaoedu.vip.pattern.proxy.dynamicproxy.gpproxy.proxy.GPClassLoader;
-import com.gupaoedu.vip.pattern.proxy.dynamicproxy.gpproxy.proxy.GPInvocationHandler;
-import com.gupaoedu.vip.pattern.proxy.dynamicproxy.gpproxy.proxy.GPProxy;
-
+import com.ys.pattern.proxy.dynamicproxy.gpproxy.proxy.GPClassLoader;
+import com.ys.pattern.proxy.dynamicproxy.gpproxy.proxy.GPInvocationHandler;
+import com.ys.pattern.proxy.dynamicproxy.gpproxy.proxy.GPProxy;
 
 import java.lang.reflect.Method;
 

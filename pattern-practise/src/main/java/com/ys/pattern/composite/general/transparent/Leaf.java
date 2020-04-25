@@ -1,4 +1,4 @@
-package com.gupaoedu.vip.pattern.composite.general.transparent;
+package com.ys.pattern.composite.general.transparent;
 
 //叶子节点
 public class Leaf extends Component {

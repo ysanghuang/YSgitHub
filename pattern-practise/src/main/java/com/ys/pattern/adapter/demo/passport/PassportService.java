@@ -1,4 +1,4 @@
-package com.gupaoedu.vip.pattern.adapter.demo.passport;
+package com.ys.pattern.adapter.demo.passport;
 
 /**
  * Created by Tom.

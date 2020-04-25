@@ -1,4 +1,4 @@
-package com.gupaoedu.vip.pattern.prototype.singleton;
+package com.ys.pattern.prototype.singleton;
 
 import java.util.ArrayList;
 import java.util.List;

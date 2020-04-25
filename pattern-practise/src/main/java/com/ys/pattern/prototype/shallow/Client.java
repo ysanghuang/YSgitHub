@@ -1,4 +1,4 @@
-package com.gupaoedu.vip.pattern.prototype.shallow;
+package com.ys.pattern.prototype.shallow;
 
 import java.util.ArrayList;
 import java.util.List;
