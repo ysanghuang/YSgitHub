@@ -1,9 +1,11 @@
 package com.ys.client4qq.job;
 
+import com.ys.client4qq.controller.ApiController;
 import com.ys.client4qq.demo.FlowOrderDemo;
 import com.ys.client4qq.utils.HttpClientUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -20,6 +22,9 @@ public class QueryThread implements Runnable {
     Logger logger = LoggerFactory.getLogger(QueryThread.class);
     private List<String> qqs;
     private List<String> resultList = new ArrayList<>();
+
+    @Autowired
+    private ApiController apiController;
 
     public QueryThread(List<String> qqs) {
         this.qqs = qqs;

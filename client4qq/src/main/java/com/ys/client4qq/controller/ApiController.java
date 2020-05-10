@@ -4,9 +4,8 @@ import com.ys.client4qq.demo.FlowOrderDemo;
 import com.ys.client4qq.job.QueryQQThreadJob;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,8 +20,7 @@ import java.util.concurrent.Future;
  * @Date: 2020/4/2 13:04
  * @Version: 1.0
  */
-@ResponseBody
-@Controller
+@RestController
 public class ApiController {
 
     Logger logger = LoggerFactory.getLogger(ApiController.class);
@@ -146,5 +144,50 @@ public class ApiController {
             start = end;
         }
         return result.toString();
+    }
+
+    private static List<String> list = new ArrayList<>();
+
+    @RequestMapping("query2")
+    public List query2(){
+        List<String> qqs = new ArrayList<>();
+        for (int i = 0; i < 20; i++) {
+            qqs.add("1359611399");
+            qqs.add("120848418");
+            qqs.add("1521612384");
+        }
+
+
+        List<String> result = new ArrayList<>();
+        //创建线程池 newFixedThreadPool(10) 创建一个定长线程池，可控制线程最大并发数为10(根据需求自行修改)
+        ExecutorService newFixedThreadPool = Executors.newFixedThreadPool(10);
+
+        int perNum = 5;
+        int threadSum = qqs.size() / perNum;
+
+        int start = 0;
+        int end = 1;
+        for (int i = 1; i <= threadSum; i++) {
+            end = i * perNum > qqs.size() ? qqs.size() : i * perNum;
+
+            List subList = qqs.subList(start,end);
+            newFixedThreadPool.execute(new Runnable() {
+                @Override
+                public void run() {
+                    FlowOrderDemo f = new FlowOrderDemo();
+                    List<String> l =  f.callApi(subList,"https://api.66mz8.com/api/qq.level.php");
+                    logger.debug("==============================================");
+                    logger.debug(l.toString());
+                    ApiController.addList(l);
+                }
+            });
+
+            start = end;
+        }
+        return list;
+    }
+
+    public static void addList(List l){
+        list.addAll(l);
     }
 }
