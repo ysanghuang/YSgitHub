@@ -7,9 +7,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.util.CollectionUtils;
 import org.springframework.util.StringUtils;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.concurrent.Callable;
 
 /**
@@ -18,42 +16,25 @@ import java.util.concurrent.Callable;
  * @Date: 2020/4/2 21:44
  * @Version: 1.0
  */
-public class QueryQQThreadJob implements Callable<String> {
-    private List<String> list;
+public class QueryQQThreadJob implements Callable<List<Map<String, Object>>> {
+    private List<String> qqs;
 
     Logger logger = LoggerFactory.getLogger(QueryQQThreadJob.class);
 
-    public QueryQQThreadJob(List<String> list) {
-        this.list = list;
+    public QueryQQThreadJob(List<String> qqs) {
+        this.qqs = qqs;
     }
 
     @Override
-    public String call() throws Exception {
-        if(CollectionUtils.isEmpty(list)){
-            return "";
+    public List<Map<String, Object>> call() throws Exception {
+        if(CollectionUtils.isEmpty(qqs)){
+            return null;
         }
-        StringBuilder builder = new StringBuilder();
-        for (String qq: list) {
-            if (StringUtils.isEmpty(qq)){continue;}
-            String result = callApi(qq);
-            builder.append(result);
-        }
-        logger.debug("当前线程："+Thread.currentThread().getName());
-        return builder.toString();
-    }
-
-//    private String callApi(String qq){
-//        String url = "https://api.66mz8.com/api/qq.level.php";
-//        Map<String, String> param = new HashMap<>();
-//        param.put("qq",qq);
-//        HttpClientUtil httpUtil = new HttpClientUtil();
-//        String result = httpUtil.doGet(url,param);
-//        return result;
-//    }
-
-    private String callApi(String qq){
-        String url = "https://api.66mz8.com/api/qq.level.php?qq="+qq;
+        logger.debug("线程："+Thread.currentThread().getName() + "   开始");
+        logger.debug("开始时间：" + new Date());
         FlowOrderDemo f = new FlowOrderDemo();
-        return f.callApi(url);
+        List<Map<String, Object>> resultList = f.callApi(qqs,"https://api.66mz8.com/api/qq.level.php");
+        return resultList;
     }
+
 }

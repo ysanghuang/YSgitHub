@@ -1,5 +1,6 @@
 package com.ys.client4qq.demo;
 
+import com.alibaba.fastjson.JSONObject;
 import org.apache.http.HeaderElement;
 import org.apache.http.HeaderElementIterator;
 import org.apache.http.HttpHost;
@@ -23,7 +24,9 @@ import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
+import java.util.Map;
 
 /**
  * 流量订单Demo
@@ -53,7 +56,7 @@ public class FlowOrderDemo {
                 .replace("{time}", String.valueOf(time));
     }
 
-    public String httpProxyWithPassRequest(String destUrl, String proxyHost, int proxyPort, String proxyUserName, String proxyPassword) throws IOException {
+    public Map<String, Object> httpProxyWithPassRequest(String destUrl, String proxyHost, int proxyPort, String proxyUserName, String proxyPassword) throws IOException {
         HttpHost host = new HttpHost(proxyHost, proxyPort);
         CredentialsProvider provider = new BasicCredentialsProvider();
         provider.setCredentials(new AuthScope(host), new UsernamePasswordCredentials(proxyUserName, proxyPassword));
@@ -85,7 +88,6 @@ public class FlowOrderDemo {
                 .setDefaultCredentialsProvider(provider).setKeepAliveStrategy(myStrategy).build();
 
 
-
         HttpGet httpGet = new HttpGet(destUrl);
         RequestConfig requestConfig = RequestConfig.custom().setConnectTimeout(60000)
                 .setSocketTimeout(60000).setProxy(host).build();
@@ -95,33 +97,23 @@ public class FlowOrderDemo {
         System.out.println("http代理请求状态码: " + httpResponse.getStatusLine());
         logger.debug("当前线程：" + Thread.currentThread().getName());
         String result = EntityUtils.toString(httpResponse.getEntity());
-//        System.out.println("http代理请求响应内容: " + result);
-
-        return result;
+        JSONObject jsonResult = JSONObject.parseObject(result);
+        return jsonResult;
     }
 
-    public String callApi(String url) {
-        String result = "";
-        try {
-            result = httpProxyWithPassRequest(url, proxyHost, proxyPort, "proxy", createPwd(orderId, secret));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return result;
-    }
+    public List<Map<String, Object>> callApi(List<String> qqs, String url) {
+        List<Map<String, Object>> result = new ArrayList<>();
 
-    public List<String> callApi(List<String> qqs,String url) {
-        List<String> result = new ArrayList<>();
-
-        for (String qq : qqs){
-            String uri = url + "?qq="+qq;
+        qqs.forEach(qq -> {
+            String uri = url + "?qq=" + qq;
             try {
                 result.add(httpProxyWithPassRequest(uri, proxyHost, proxyPort, "proxy", createPwd(orderId, secret)));
             } catch (IOException e) {
                 e.printStackTrace();
             }
-        }
-        logger.debug("线程"+Thread.currentThread().getName()+"结束");
+        });
+        logger.debug("线程" + Thread.currentThread().getName() + "结束");
+        logger.debug("结束时间：" + new Date());
         return result;
     }
 }
